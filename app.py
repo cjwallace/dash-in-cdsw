@@ -58,7 +58,7 @@ print('Dash starting at {}.{}'.format(
 
 # And provide a link
 
-HTML("<a href='https://{}.{}'>Open URL</a>".format(
+HTML("<a href='https://{}.{}'>Open Dash</a>".format(
     os.environ['CDSW_ENGINE_ID'],
     os.environ['CDSW_DOMAIN']
 ))
